@@ -27,6 +27,8 @@ header{
     width:100%;
     position:relative;
     margin:0;
+    filter: blur(3px);
+    
     
 }
 #image h2{
@@ -109,7 +111,7 @@ footer{
     margin-top: 150px;
 
 }
-img {
+div img {
     height : 60px;
 
 
@@ -117,6 +119,7 @@ img {
 
 .pos{
     color: White;
+    flex-basis: 100%;
 }
 
 
@@ -136,9 +139,6 @@ article{
 }
 
 
-.pos{
-    flex-basis: 100%;
-}
 
 a{  
     padding-left: 48px;

@@ -1,0 +1,174 @@
+body{
+    display :flex;
+    flex-wrap: wrap;        /*Permet de manipuler les enfant direct du body */
+    
+
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:100%;
+  
+}
+
+
+#head{
+    flex-basis: 100%;
+    margin:0;
+    text-align: center;  /* Centre la navigation */
+}
+
+#head img{
+    padding-left:30px;
+}
+
+#image img {
+    height:100%;
+    width:100%;
+    position:relative;
+    margin:0;
+    transform: scaleX(-1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+#image h2{
+    position:absolute;
+    z-index: 1;
+    color:white;
+    padding-left: 8%;
+    font-size: 300%;
+    
+}
+
+#pb{
+    text-align:center;
+    color:white;
+    padding:10px;
+    padding-top: 15px;
+    background-color: #167DC7;
+    flex-grow: 1;
+    font-weight:bold;
+
+}
+
+#pb span{
+    color:#890364; /*pendant en violet */
+}
+
+#intro p{
+    text-align: center;
+    flex-basis: 65%;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+section >p{
+    color:white;
+    background-color:#890364;
+    padding:15px;
+   
+}
+
+#choix{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-basis:100%;
+    justify-content: space-evenly;   /* Pour gérer les 3 images */
+ 
+}
+
+#choix section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    
+}
+#choix section p {
+   
+  
+    text-align: center;
+    align-items: center;
+    padding-top:20px; 
+    padding-left: 20px;
+    margin-top:0;
+
+
+}
+
+#choix section img{
+    justify-content: space-between;
+    height:160px;
+    width:200px;
+    margin-top:0;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+
+}
+
+
+
+
+footer{
+    flex-basis: 100%;
+    padding: bottom 100%;
+    margin:0;
+    margin-top: 150px;
+
+}
+img {
+    width : 50px;
+    height : 50px;
+
+
+}
+
+.pos{
+    color: White;
+}
+
+
+li{
+    list-style-type: None;
+    
+}
+article{
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: #167DC7;
+    text-align: center;
+    flex-basis: 100%;
+    margin:0;
+    padding:5px;
+
+}
+
+
+.pos{
+    flex-basis: 100%;
+}
+
+a{
+    text-decoration: None;
+    color:white;
+    text-align: center;
+    align-items: center;
+  
+    
+}
+
+#deux{
+    background-color:#D9D9D9;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin:0;
+    padding:5px;
+    text-align: center;
+    flex-basis: 100%;
+}
+#deux img{
+    width:15px;
+    height: 15px;
+}
+
