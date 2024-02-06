@@ -68,7 +68,27 @@ a{
   align-items: center;
   display: flex;
 }
+span{
+  color:#890364;
+}
 
 li{
   list-style-type: None;
+}
+#N1 {
+  height: 317px;
+  width: 1907px;
+  position:relative;
+  margin:0;
+  size: 100%;
+}
+#pres{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  padding-top: 15px;
+  background-color: #167DC7;
+  flex-grow: 1;
+  font-weight: bold;
+  margin-top: 0;
 }

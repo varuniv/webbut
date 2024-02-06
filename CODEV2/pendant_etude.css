@@ -24,13 +24,13 @@ header{
 
 #image img {
     height:100%;
-    width:100%;
+    width:97.5%;
     position:relative;
-    margin:0;
+    margin-left: 20px;
     transform: scaleX(-1);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    
+
 }
 #image h2{
     position:absolute;
@@ -49,6 +49,8 @@ header{
     background-color: #167DC7;
     flex-grow: 1;
     font-weight:bold;
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
 
@@ -61,6 +63,8 @@ header{
     flex-basis: 65%;
     margin-top:50px;
     margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 section >p{
