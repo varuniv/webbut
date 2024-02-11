@@ -92,3 +92,35 @@ li{
   font-weight: bold;
   margin-top: 0;
 }
+
+#avbut,#pvbut{
+  color:#D9D9D9;
+  background-color:#890364;
+  padding:35px;
+  margin: 30px;
+  border-radius: 25px;
+}
+#divbut{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+}
+#divtext{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+}
+#divtext p {
+  width: 35%;
+  margin: 20px;
+  padding: 20px;
+  padding-left: 120px;
+}
+h1{
+  z-index: 1;
+  position: absolute;
+  color: #D9D9D9;
+}
+#text-principal p {
+  text-align: center;
+}
